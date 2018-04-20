@@ -1,0 +1,22 @@
+{
+    "RF1":{
+      "sampling_freq"   :40000000,
+      "tx_lo_freq"      :700000000,
+      "tx1_attenuation" :10000,
+      "tx2_attenuation" :10000,
+      "rx_lo_freq"      :700000000,
+      "rx1_gc"          :1,
+      "rx2_gc"          :1,
+      "rx1_gain"        :40,
+      "rx2_gain"        :40,
+      "ref_clock"       :0,
+      "vco_select"      :1,
+      "adf4001_rcount"  :10,
+      "adf4001_ncount"  :26,
+      "auxdac"          :0,
+      "tx_ant"          :1,
+      "rx_ant"          :1,
+      "tdd_mod_en"      :1,
+      "rx_ant_en"       :0
+    }
+}
