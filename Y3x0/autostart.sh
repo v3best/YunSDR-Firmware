@@ -3,9 +3,9 @@ ifconfig eth0 down
 ifconfig eth0 hw ether 00:0a:35:00:01:21
 ifconfig eth0 192.168.1.10 up
 
-/media/card0/udc.sh start
-sleep 1
-ifconfig usb0 192.168.1.9 up
+#/media/card0/udc.sh start
+#sleep 1
+#ifconfig usb0 192.168.1.9 up
 
 cd /media/card0
 firmware=`peek 0x40000000`
